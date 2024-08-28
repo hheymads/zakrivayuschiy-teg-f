@@ -78,7 +78,7 @@
   position: absolute;
   background: currentColor;
   transform-origin: left;
-  transition: all 0.5s ease;
+  transition: 0.5s ease;
   inline-size: 100%;
   block-size: 3px;
   transform: scale(0);
@@ -138,7 +138,7 @@
   object-position: center;
 }
 
-.card_picture{
+.card_picture {
   max-inline-size: clamp(23.4375rem, 16.3732rem + 30.1408vw, 43.5rem);
   border: 2px solid var(--accent-color);
 }
@@ -213,7 +213,7 @@
   transform-origin: left;
 }
 
-.icon-button::before {
+.icon-button:hover::before {
   transform: scaleX(1);
 }
 
@@ -237,7 +237,7 @@
   outline: none;
 }
 
-.card__like-button:focus-visible{
+.card__like-button:focus-visible {
   box-shadow: 2px 2px 0px 0px var(--accent-color);
 }
 
@@ -293,7 +293,7 @@
   outline: none;
 }
 
-.save-button:focus-visible{
+.save-button:focus-visible {
   box-shadow: 2px 2px 0px 0px var(--accent-color);
 }
 
@@ -331,7 +331,7 @@
   padding: 30px;
 }
 
-.dialog::backdrop{
+.dialog::backdrop {
   background-color: rgba(0 0 0 / 0.75);
 }
 
