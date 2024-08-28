@@ -383,12 +383,12 @@
   filter: blur(3px)
 }
 
-.filter-mix {
-  filter: opacity(80%) sepia(0.6) invert(10%) contrast(250%);
-}
-
 .filter-opacity {
   filter: opacity(40%);
+}
+
+.filter-mix {
+  filter: opacity(80%) sepia(0.6) invert(10%) contrast(250%);
 }
 
 @media (width <= 375px) {
