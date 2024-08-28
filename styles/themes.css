@@ -4,3 +4,42 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+:root.theme-light {
+    --font-family: Inter;
+    --font-family-accent: PressStart2P;
+    --font-weight-base: 400;
+    --font-weight-text: 700;
+    --background-color: #FFFFFF;
+    --accent-color: #000000;
+    --background-image: repeating-linear-gradient(to right, #d3d3d3 0 2px, rgb(211 211 211 / 0) 2px 4px),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, rgb(211 211 211 / 0) 2px 4px), 
+    linear-gradient(#e7e7e7 0.01%, #1a1a1a);
+    --text-shadow: #FFFFFF;
+    --button-text: #FFFFFF;
+}
+
+:root.theme-dark {
+    --font-weight-base: 465;
+    --font-weight-text: 785;
+    --background-color: #000000;
+    --accent-color: #00CC14;
+    --background-image: repeating-linear-gradient(to right, #000 0 2px, rgb(0 0 0 / 0) 2px 4px),
+    repeating-linear-gradient(to bottom, #000 0 2px, rgb(0 0 0 / 0) 2px 4px),
+    linear-gradient(#007f0c, #004306);
+    --text-shadow: #000000;
+    --button-text: #00CC14;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --font-weight-base: 465;
+        --font-weight-text: 785;
+        --background-color: #000000;
+        --accent-color: #00CC14;
+        --background-image: repeating-linear-gradient(to right, #000 0 2px, rgb(0 0 0 / 0) 2px 4px),
+        repeating-linear-gradient(to bottom, #000 0 2px, rgb(0 0 0 / 0) 2px 4px),
+        linear-gradient(#007f0c, #004306);
+        --text-shadow: #000000;
+        --button-text: #00CC14;
+    }
+}
