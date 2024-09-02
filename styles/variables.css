@@ -1,20 +1,21 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-    --font-family: "Inter" sans-serif;
-    --font-family-accent: "PressStart2P";
+    --font-family: "Inter", sans-serif;
+    --font-family-accent: "PressStart2P", fantasy;
     --font-weight-base: 400;
     --font-weight-text: 700;
-    --background-color: #000000;
-    --accent-color: #00CC14;
+    --background-color: #FFFFFF;
+    --accent-color: #000000;
     --background-image: repeating-linear-gradient(to right, #d3d3d3 0 2px, rgb(211 211 211 / 0) 2px 4px),
     repeating-linear-gradient(to bottom, #d3d3d3 0 2px, rgb(211 211 211 / 0) 2px 4px), 
     linear-gradient(#e7e7e7 0.01%, #1a1a1a);
     --font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
     --font-size-title: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
     --font-size-menu: clamp(0.875rem, 0.875rem + 0vw, 0.875rem);
-    --text-shadow: #000000;
-    --button-text: #00CC14;
+    --text-shadow: #FFFFFF;
+    --button-text: #FFFFFF;
     --red: #FF0000;
     --heart-color: var(--background-color);
     --width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
+    --width-img: clamp(23.1875rem, 15.9472rem + 30.892vw, 43.75rem);
 }
