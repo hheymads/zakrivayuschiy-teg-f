@@ -200,7 +200,7 @@ text-transform: uppercase;
   align-items: center;
   cursor: pointer;
   background-color: transparent;
-  background-color: var(--background-color);
+  background: var(--background-color);
   border: 2px solid var(--accent-color);
   font-family: var(--font-family-accent), fantasy;
   font-size: 14px;
@@ -292,10 +292,10 @@ text-transform: uppercase;
 .save-button {
   display: flex;
   align-items: center;
-  position: relative; 
-  margin-block-end: 103px; 
-  min-inline-size: 335px; 
-  min-block-size: 55px; 
+  position: relative;
+  margin-block-end: 103px;
+  min-inline-size: 335px;
+  min-block-size: 55px;
   gap: 8px;
 }
 
